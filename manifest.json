@@ -1,0 +1,23 @@
+{
+	"name": "Extensions Manager", // Chrome plated cogs
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "This extension was created with the awesome extensionizr.io", //Change the description
+	"homepage_url": "http://extensionizr.com", //change the link
+	"icons": {
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	},
+	"default_locale": "en",
+	"options_page": "src/options/index.html",
+	"browser_action": {
+		"default_icon": "icons/icon19.png",
+		"default_title": "Extensions Manager", //change the tooltip
+		"default_popup": "src/browser_action/browser_action.html"
+	},
+	"permissions": [
+		"management",
+		"notifications"
+	]
+}
